@@ -1,0 +1,75 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+/* End of fonts */
+
+/* Normalize styles */
+
+html {
+    box-sizing: border-box;
+    background-image: url('../images/site/small_check.jpg');
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    border: 2px solid #4c96d7;
+    border-radius: 15px;
+    background-color: white;
+    font-family: "Comic Neue", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Start of the Nav */
+nav {
+    background-color: #3a3a3a;
+    padding: 5px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 0 25px;
+    font-size: 1.3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #4f4f4f;
+    background-color: #f7cac9;
+}
+
+/* End of the Nav */
+
+/* Main starts here */
+#main-grid {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+/* Main ends here */
+
+/* Footer Starts Here */
+footer {
+    border-top: 2px solid #3a3a3a;
+    text-align: center;
+}
+
+/* Footer ends here */

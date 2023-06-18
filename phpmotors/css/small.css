@@ -1,0 +1,150 @@
+/* Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+/* End of fonts*/
+
+html{
+	
+	background-image: url('../images/site/small_check.jpg');
+}
+
+body{
+	border: 2px solid #4c96d7;
+	border-radius: 15px;
+	background-color: white;
+	margin: 20px;
+	font-family: "Comic Neue", sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+/* Start of the Nav */
+nav{
+	background-color: #3a3a3a;
+	padding: 5px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	padding: 0px;
+}
+
+nav a:hover{
+	color: #4f4f4f;
+	background-color: #f7cac9;
+}
+
+nav a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav li{
+	padding: 0px 25px;
+	font-size: 1.3em;
+}
+
+/*End of the Nav */
+
+/*Main starts here */
+#main-grid{
+	display: flex;
+	flex-flow: column;  
+	justify-content: flex-start;
+}
+
+main h1{
+	font-size: 1.6em;
+	order: 1;
+	margin-left: 5px;
+}
+main button{
+	color: #3a3a3a;
+	background-color: #f7cac9;
+	border: 1px;
+	font-size: 1.1em;
+	order: 4;
+	width: 50%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+main img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	order: 3;
+}
+/*Main ends here */
+
+
+/*Car styling here */
+
+#car-box{
+	color: #1C507d;
+	order: 2;
+}
+#car-box p,h3{
+	margin: 0px;
+}
+
+/*Car styling ends here */
+
+/* Upgrades styles starts here */
+
+#upgrades-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	order: 6;
+}
+
+#upgrade-heading{
+	order: 5;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.upgrade-container{
+	flex-basis: 45%;
+	text-align: center;
+	background-color: #f7cac9;
+}
+.upgrade-image-padding{
+	border: 1px black solid;
+	background-color: #4c96d7;
+	height: 100px;
+}
+
+/* Upgrades styles ends here */
+
+/* Review styles starts here */
+
+#review-heading{
+	order: 7;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#reviews-box{
+	order: 8;
+}
+
+/* Review styles end here */
+
+/* Footer Starts Here */
+footer{
+	border-top: 2px solid #3a3a3a;
+	text-align: center;
+}
+/* Footer ends here */
